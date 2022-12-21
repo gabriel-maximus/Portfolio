@@ -1,0 +1,28 @@
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
+
+.Titulo{
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.Links{
+    margin-right: 24px;
+}
+
+.Links a{
+    margin: 0 12px ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
