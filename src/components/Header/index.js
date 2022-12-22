@@ -6,7 +6,7 @@ export default function Header() {
     <nav className='Container'>
     
         <div className='Titulo'>
-            <strong>{'<'} Portfólio /{'>'}</strong>
+            <strong>{'<'}PORTFÓLIO/{'>'}</strong>
         </div>
     
         <div className='Links'>

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Button from './components/Button';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 import Foto from './assets/Foto.png'
+import Card from './components/Card';
 
 function App() {
   ScrollReveal({ reset: true });
@@ -28,6 +29,7 @@ function App() {
         </section>
       </div>
       <section className='Sobre' id='Sobre'>
+        <Card />
       </section>
     </div>
   );

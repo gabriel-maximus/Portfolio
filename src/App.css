@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
-  color: #fff;
 }
 
-.App{
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
   background-color: #111111;
 }
 
@@ -43,24 +44,34 @@
 
 .Title{
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 800;
+  font-size: 36px;
   width: 320px;
-  margin-bottom: 20px;
   line-height: 44px;
 }
 
 .SubTitle{
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   width: 420px;
   margin-bottom: 20px;
   line-height: 22px;
 }
 
 .Imagem img{
-  width: 35rem;
-  height: 35rem;
+  width: 32rem;
+  height: 32rem;
+}
+
+.Sobre{
+  height: fit-content;
+  width: 100%;
+  max-width: 80%;
+  margin: 24px auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
