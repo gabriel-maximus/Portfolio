@@ -26,3 +26,8 @@
     color: #fff;
     font-size: 18px;
 }
+
+.Links a:hover{
+    text-decoration: underline;
+    color: #67008F;
+}
