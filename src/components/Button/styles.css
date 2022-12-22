@@ -1,0 +1,11 @@
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: #67008f;
+    border: none;
+    cursor: pointer;
+    width: 7rem;
+    margin: 0 6px;
+  }

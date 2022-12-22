@@ -10,11 +10,11 @@ export default function Header() {
         </div>
     
         <div className='Links'>
-            <a href='#'>Inicio</a>
-            <a href='#'>Sobre</a>                
-            <a href='#'>Experiências</a>
-            <a href='#'>Projetos</a>
-            <a href='#'>Skills</a>
+            <a href='#Inicio'>Inicio</a>
+            <a href='#Sobre'>Sobre</a>                
+            <a href='#Experiencias'>Experiências</a>
+            <a href='#Projetos'>Projetos</a>
+            <a href='#Skills'>Skills</a>
         </div>
     
     </nav>
