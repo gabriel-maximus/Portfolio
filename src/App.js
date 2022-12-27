@@ -14,7 +14,7 @@ function App() {
       <Header />
       <div className='Content'>
         <section className='Inicio' id='Inicio'>
-          <div className='Column'>
+          <div className='Column slide-in-left'>
             <span className='Text'>Olá, eu sou</span>
             <strong className='Title'>Gabriel Maximus</strong>
             <h1 className='SubTitle'>Desenvolvedor Front-End.</h1>
@@ -23,7 +23,7 @@ function App() {
               <Button Conteudo={<IoLogoGithub size={50} color={'#fff'}/>} Ref={'https://github.com/gabriel-maximus'}/>          
             </div>
           </div>
-          <div className='Imagem'>
+          <div className='Imagem tilt-in-fwd-tr'>
             <img src={Foto} alt='#'></img>
           </div>
         </section>
