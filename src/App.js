@@ -3,8 +3,12 @@ import ScrollReveal from 'scrollreveal';
 import Header from './components/Header';
 import Button from './components/Button';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
+import {DiJavascript1, DiReact} from 'react-icons/di';
+import {TbApi} from 'react-icons/tb';
 import Foto from './assets/Foto.png'
 import Card from './components/Card';
+import ImageCard from './components/ImageCard';
+import MaxFlix from './assets/MaxFlix.png'
 
 function App() {
   ScrollReveal({ reset: true });
@@ -30,6 +34,17 @@ function App() {
       </div>
       <section className='Sobre' id='Sobre'>
         <Card />
+      </section>
+      <section className='Experiencias' id='Experiencias'>
+          Experiencias
+      </section>
+      <section className='Projetos' id='Projetos'>
+        <strong className='Projetos-Title'>Projetos: </strong>
+        <div className='Projetos-Corpo'>
+          <ImageCard title={'MaxFlix'} text={'Projeto utilizando uma api externa para mostrar os filmes em cartaz e informações sobre cada um deles.'}
+          tecnologias={<><DiJavascript1 size={20}/><DiReact size={20}/><TbApi size={20} /></>} image={MaxFlix}/>
+          <ImageCard />
+        </div>
       </section>
     </div>
   );
