@@ -4,11 +4,13 @@ import Header from './components/Header';
 import Button from './components/Button';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 import {DiJavascript1, DiReact} from 'react-icons/di';
+import {SiArduino, SiCplusplus} from 'react-icons/si'
 import {TbApi} from 'react-icons/tb';
 import Foto from './assets/Foto.png'
 import Card from './components/Card';
 import ImageCard from './components/ImageCard';
-import MaxFlix from './assets/MaxFlix.png'
+import MaxFlix from './assets/MaxFlix.png';
+import Telemetria from './assets/Telemetria.jpeg'
 
 function App() {
   ScrollReveal({ reset: true });
@@ -33,16 +35,19 @@ function App() {
         </section>
       </div>
       <section className='Sobre' id='Sobre'>
-        <Card />
+          <Card />
       </section>
       <section className='Experiencias' id='Experiencias'>
           Experiencias
       </section>
       <section className='Projetos' id='Projetos'>
         <strong className='Projetos-Title'>Projetos: </strong>
+        <p>Esses são meus projetos desenvolvidos durante minha trajetória de estudos.</p>
         <div className='Projetos-Corpo'>
-          <ImageCard title={'MaxFlix'} text={'Projeto utilizando uma api externa para mostrar os filmes em cartaz e informações sobre cada um deles.'}
+          <ImageCard title={'MaxFlix'} text={'Projeto feito em React utilizando uma requisição de api externa para mostrar os filmes em cartaz e informações sobre cada um deles. '}
           tecnologias={<><DiJavascript1 size={20}/><DiReact size={20}/><TbApi size={20} /></>} image={MaxFlix}/>
+          <ImageCard title={'Telemetria'} text={'Projeto utilizado para transmissão de dados em tempo real via rádio, com dados de temperatura, pressão e coordenadas geográficas.'}
+          tecnologias={<><SiCplusplus size={20}/><SiArduino size={20} /></>} image={Telemetria} redirect={'https://github.com/gabriel-maximus/Avionica'}/>
           <ImageCard />
         </div>
       </section>

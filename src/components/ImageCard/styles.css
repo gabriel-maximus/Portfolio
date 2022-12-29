@@ -5,6 +5,15 @@
     border: solid #67008f;
 }
 
+.card-img-top{
+    height: 12rem;
+    object-fit: cover;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
 .botao-card{
     display: flex;
     justify-content: center;
