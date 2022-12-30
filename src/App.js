@@ -38,9 +38,6 @@ function App() {
       <section className='Sobre' id='Sobre'>
           <Card />
       </section>
-      <section className='Experiencias' id='Experiencias'>
-          Experiencias
-      </section>
       <section className='Projetos' id='Projetos'>
         <strong className='Projetos-Title'>Projetos: </strong>
         <p>Esses são meus projetos desenvolvidos durante minha trajetória de estudos.</p>
