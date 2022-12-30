@@ -33,3 +33,9 @@
 .Sobre-Mim button{
     margin-top: 12px;
 }
+
+@media (max-width: 768px){
+    .Sobre-Mim{
+        text-align: center;
+    }
+}

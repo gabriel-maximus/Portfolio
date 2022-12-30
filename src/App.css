@@ -174,4 +174,30 @@ body{
   
 }
 
+@media (max-width: 768px){
+  body{
+    text-align: center;
+  }
+  
+  .Inicio{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Imagem img{
+    width: 16rem;
+    height: 16rem;
+    margin: 20px auto;
+  }
+
+  .Column{
+    align-items: center;
+    justify-content: center;
+  }
+  .Column h1{
+    text-align: center;
+  }
+}
+
 

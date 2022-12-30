@@ -34,3 +34,9 @@
     border: #fff solid 2px;
     opacity: 80%;
 }
+
+@media (max-width: 322px){
+  .card{
+    width: 12rem;
+  }
+}
