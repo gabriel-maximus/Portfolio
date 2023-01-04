@@ -38,4 +38,9 @@
     .Sobre-Mim{
         text-align: center;
     }
+
+    .Sobre-Mim p{
+        font-size: 12px;
+        text-align: justify;
+    }
 }
