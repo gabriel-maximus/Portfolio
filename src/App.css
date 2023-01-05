@@ -149,6 +149,33 @@ body{
   }
 }
 
+.Skills{
+  width: 100%;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.Skills button{
+  border: none;
+  background-color: transparent;
+}
+
+.Skills button:hover{
+  border: none;
+  background-color: transparent;
+}
+
+.Skills p{
+  font-style: italic;
+}
+
+.Tecnologias-Container{
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .Projetos{
   width: 100%;
   flex-direction: column;
@@ -197,6 +224,12 @@ body{
   }
   .Column h1{
     text-align: center;
+  }
+
+  .Tecnologias-Container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
   }
 }
 

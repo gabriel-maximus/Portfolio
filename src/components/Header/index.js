@@ -18,10 +18,10 @@ export default function Header() {
             <a className="nav-link" href="#Sobre">Sobre</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Projetos">Projetos</a>
+            <a className="nav-link" href='#Skills'>Skills</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href='#Skills'>Skills</a>
+            <a className="nav-link" href="#Projetos">Projetos</a>
           </li>
           <li className="nav-item">
             <a className='nav-link' href='#Contatos'>Contato</a>
