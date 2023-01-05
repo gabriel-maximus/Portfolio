@@ -5,6 +5,7 @@ import Button from './components/Button';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 import {DiJavascript1, DiReact, DiHtml5, DiCss3} from 'react-icons/di';
 import {SiArduino, SiCplusplus, SiBootstrap} from 'react-icons/si'
+import {MdEmail, MdOutlineLocationOn} from 'react-icons/md'
 import {TbApi} from 'react-icons/tb';
 import Foto from './assets/Foto.png'
 import Card from './components/Card';
@@ -78,15 +79,15 @@ function App() {
       <section className='Contato' id='Contato'>
         <div className='Itens-Contato'>
           <main className='Item-Contato'>
-            <h2>Linkedin</h2>
+            <h2><IoLogoLinkedin size={20}/> Linkedin</h2>
             <a href='https://www.linkedin.com/in/gabriel-maximus/' target={'blank'}>gabriel-maximus</a>
           </main>
           <main className='Item-Contato'>
-            <h2>Email</h2>
+            <h2><MdEmail size={20}/> Email</h2>
             <a href='mailto:gabrielmaximus80@gmail.com' target={'blank'}>gabrielmaximus80@gmail.com</a>
           </main>
           <main className='Item-Contato'>
-            <h2>Localização</h2>
+            <h2><MdOutlineLocationOn size={20}/> Localização</h2>
             <p>Niterói - RJ</p>
           </main>
         </div>
