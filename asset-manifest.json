@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.65c3a043.css",
+    "main.js": "/Portfolio/static/js/main.73d3c971.js",
+    "static/media/Foto.png": "/Portfolio/static/media/Foto.5ea5d3ad9bfeb9cb7f19.png",
+    "static/media/Telemetria.jpeg": "/Portfolio/static/media/Telemetria.8465e84632233b16e35b.jpeg",
+    "static/media/MaxFlix.png": "/Portfolio/static/media/MaxFlix.9b6633edc1ad70dd7599.png",
+    "static/media/Wallpaper.jpg": "/Portfolio/static/media/Wallpaper.462741dfe939a31599e4.jpg",
+    "static/media/LandingPage.png": "/Portfolio/static/media/LandingPage.47ee934fdfb8604b2149.png",
+    "static/media/Projects-Background.jpg": "/Portfolio/static/media/Projects-Background.81d8755a88f8ac99460f.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.65c3a043.css.map": "/Portfolio/static/css/main.65c3a043.css.map",
+    "main.73d3c971.js.map": "/Portfolio/static/js/main.73d3c971.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65c3a043.css",
+    "static/js/main.73d3c971.js"
+  ]
+}
