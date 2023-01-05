@@ -201,6 +201,34 @@ body{
   
 }
 
+.Itens-Contato{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.Item-Contato{
+  background-color: #000;
+  border-radius: 25px;
+  padding-top: 5px;
+}
+
+.Item-Contato a{
+  text-decoration: none;
+}
+
+.Item-Formulario{
+  background-color: #000;
+  padding-top: 50px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px){
   body{
     text-align: center;
@@ -232,5 +260,6 @@ body{
     gap: 100px;
   }
 }
+
 
 

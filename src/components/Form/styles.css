@@ -1,0 +1,31 @@
+.Formulario{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Formulario h2{
+    color: #fff;
+    text-align: center;
+}
+
+.Formulario input{
+    width: 60vw;
+}
+
+.Formulario textarea{
+    width: 60vw;
+    height: 200px;
+}
+
+.Formulario button{
+    font-weight: bold;
+    margin: 10px auto;
+    width: 30vw;
+}
+
+.Formulario textarea{
+    padding: 5px;
+}

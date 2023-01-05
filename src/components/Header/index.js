@@ -24,7 +24,7 @@ export default function Header() {
             <a className="nav-link" href="#Projetos">Projetos</a>
           </li>
           <li className="nav-item">
-            <a className='nav-link' href='#Contatos'>Contato</a>
+            <a className='nav-link' href='#Contato'>Contato</a>
           </li>
         </ul>
       </div>
